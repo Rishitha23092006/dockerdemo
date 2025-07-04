@@ -23,7 +23,7 @@ jobs:
          run: |
           pytest test.py                    
 
-  docker:     
+    docker:     
     needs: buils-and-tests
     runs-on: ubuntu-latest
     steps:
